@@ -4,8 +4,6 @@
  */
 package codigosvarios;
 
-import java.util.Scanner;
-
 /**
  *
  * @author hugovillagra
@@ -29,6 +27,7 @@ public class CodigosVarios {
         OperacionesJava.operacionesUnarias();
         OperacionesJava.operacionesTernarias();
         
+        OperacionesObjetoJava.crearObjetos();
     }
     
 }
