@@ -13,4 +13,10 @@ public class OperacionesObjetoJava {
         ManejoScanner manejo = new ManejoScanner();
         System.out.println("Info objeto" + manejo.toString());
     }
+    
+    //Se sobre escribe el toString()
+    @Override
+    public String toString() {
+        return "asdfasdf";
+    }
 }
