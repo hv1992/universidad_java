@@ -9,7 +9,7 @@ public class Orden {
     
     public Orden(){
         this.idOrden = ++Orden.contadorOrdenes;
-        this.productos = new Producto[Orden.MAX_PRODUCTOS];
+        this.productos = new Producto[Orden.MAX_PRODUCTOS]; //Inicializa con un array de maximo 10 posiciones.
     }
     
     public void agregarProducto(Producto producto){
