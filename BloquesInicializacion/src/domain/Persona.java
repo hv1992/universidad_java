@@ -16,7 +16,7 @@ public class Persona {
     }
     
     //Esto se conoce bloque de codigo no estático, y se ejecuta cuando no se hace operaciones estáticas, pero se ejecuta antes que el constructor.
-    //Se ejecuta antes de instanciar un objeto por ejemplo.
+    //En este bloque ya se puede acceder a los atributos no estáticos de la clase, por lo que se puede usar el this.
     {
         System.out.println("Ejecucion bloque NO estatico");
         this.idPersona = Persona.contadorPersonas++;
