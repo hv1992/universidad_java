@@ -9,6 +9,7 @@ public class TestForEach {
             System.out.println("edad = " + edad);
         }
         
+        //Una forma de crear arrays de objetos de forma directa
         Persona personas[] = {new Persona("Juan"), new Persona("Karla"), new Persona("Agustin")};
         
         //Esta es la sintaxis forEach en java
