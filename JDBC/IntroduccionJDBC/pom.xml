@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>mx.com.gm.jdbc</groupId>
+    <artifactId>IntroduccionJDBC</artifactId>
+    <version>1.0</version>
+    <packaging>jar</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>14</maven.compiler.source> <!-- Versión del JDK-->
+        <maven.compiler.target>14</maven.compiler.target>
+    </properties>
+    
+    <dependencies> <!-- Aqui es donde se agrega las dependencias-->
+        <dependency> <!-- Esto es la dependecia de MySQL-->
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.19</version>
+        </dependency>
+    </dependencies>
+</project>
+
+<!-- El pom es el archivo de administración del MAVEN
+    En el pom es donde se especifica algunas caracteristicas de los proyectos, incluyendo sus dependencias, algo asi como el .gradle
+-->
