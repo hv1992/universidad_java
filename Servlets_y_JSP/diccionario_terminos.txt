@@ -1,0 +1,15 @@
+- Arquitectura de una aplicación web de java
+	# Capa de cliente
+		$ HTML
+		$ CSS
+		$ javascript
+	# Capa web
+		$ JSP
+		$ Servlets
+	# Capa negocio
+	# Capa datos
+		$ JDBC
+- Glassfish: GlassFish es un servidor de aplicaciones de software libre desarrollado por Sun Microsystems, compañía adquirida por Oracle Corporation, que implementa las tecnologías definidas en la plataforma Java EE y permite ejecutar aplicaciones que siguen esta especificación.
+- Java EE: Java Platform, Enterprise Edition o Java EE (anteriormente conocido como Java 2 Platform, Enterprise Edition o J2EE hasta la versión 1.4; traducido informalmente como Java Empresarial) es una plataforma de programación —parte de la Plataforma Java— para desarrollar y ejecutar software de aplicaciones en el lenguaje de programación Java. Java EE tiene varias especificaciones de API, tales como JDBC, RMI, e-mail, JMS, Servicios Web, XML, etc y define cómo coordinarlos. Java EE también configura algunas especificaciones únicas para Java EE para componentes. Estas incluyen Enterprise JavaBeans, servlets, portlets (siguiendo la especificación de Portlets Java), JavaServer Pages y varias tecnologías de servicios web. Ello permite al desarrollador crear una aplicación de empresa portable entre plataformas y escalable, a la vez que integrable con tecnologías anteriores. Otros beneficios añadidos son, por ejemplo, que el servidor de aplicaciones puede manejar transacciones, la seguridad, escalabilidad, concurrencia y gestión de los componentes desplegados, significando que los desarrolladores pueden concentrarse más en la lógica de negocio de los componentes en lugar de en tareas de mantenimiento del bajo nivel. 
+- Servlets: Un servlet es un componente de software basado en Java que se usa para el desarrollo web. Concretamente, los servlets son clases Java que se ejecutan en el servidor de una web para manejar las solicitudes HTTP y generar respuestas dinámicas.
+- war: es el archivo donde se empaqueta los proyectos web. Es el resultado del build de un proyecto de java web.
