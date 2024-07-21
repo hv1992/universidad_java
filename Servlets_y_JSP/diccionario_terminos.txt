@@ -21,3 +21,6 @@
 - Metodos HTTP: GET,POST,DELETE ...
 - Cuando es por el metodo del post, la información se va por el cuerpo.
 - En la carpeta webapp es donde va a estar todos los archivos de la pagina web.
+- Request Header (Cabeceros de petición): Los encabezados de solicitud proporcionan información adicional sobre la solicitud o sobre el cliente mismo. Estos encabezados pueden incluir detalles como el tipo de navegador, el tipo de contenido aceptado, el idioma preferido, y más.
+- getHeader() nos permite procesar un cabecero a la vez, mientras que getHeaders() nos permite recuperar todos los cabeceros de una solicitud HTTP.
+- URI
