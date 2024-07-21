@@ -20,3 +20,4 @@
 - El servlet es el que se encarga de la administración interactiva de la pagina web, y otras funcionalidades.
 - Metodos HTTP: GET,POST,DELETE ...
 - Cuando es por el metodo del post, la información se va por el cuerpo.
+- En la carpeta webapp es donde va a estar todos los archivos de la pagina web.
