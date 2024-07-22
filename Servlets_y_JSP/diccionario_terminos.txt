@@ -24,3 +24,15 @@
 - Request Header (Cabeceros de petición): Los encabezados de solicitud proporcionan información adicional sobre la solicitud o sobre el cliente mismo. Estos encabezados pueden incluir detalles como el tipo de navegador, el tipo de contenido aceptado, el idioma preferido, y más.
 - getHeader() nos permite procesar un cabecero a la vez, mientras que getHeaders() nos permite recuperar todos los cabeceros de una solicitud HTTP.
 - URI
+- Enumeration: La clase Enumeration en Java forma parte del paquete java.util y proporciona una manera de iterar sobre una colección de elementos, como los elementos de un vector o de una tabla de hash. Es una interfaz que ha sido sustituida en gran medida por el uso de los iteradores (Iterator) y las colecciones modernas (Collection Framework), pero aún puede encontrarse en el código heredado.
+- Los codigos de estado HTTP:
+	- 200: fue exitoso
+	- 204: sin contenido
+	- 301: 
+	- 302: 
+	...
+
+- Api de los servlets para usar los codigos de estado
+	- setStatus(int Codigo): Indica con un numero el estado del servidor al cliente. Existen constantes predefinidas que contiene cada uno un numero de estado, como SC_OK, SC__NOT_FOUND. Usar estas constantes para definir el codigo de estado que queremos enviar al cliente.
+	- sendError(int Codigo, String mensaje)
+	- sendRedirect(String url): Se usa para redireccionar a otra pagina. El redireccionamiento ya tiene un codigo de estado que es 302.
