@@ -36,3 +36,9 @@
 	- setStatus(int Codigo): Indica con un numero el estado del servidor al cliente. Existen constantes predefinidas que contiene cada uno un numero de estado, como SC_OK, SC__NOT_FOUND. Usar estas constantes para definir el codigo de estado que queremos enviar al cliente.
 	- sendError(int Codigo, String mensaje)
 	- sendRedirect(String url): Se usa para redireccionar a otra pagina. El redireccionamiento ya tiene un codigo de estado que es 302.
+- Cabeceros de respuestas: se utilizan para indicar al navegador web como debe
+  comportarse ante una respuesta por parte del servidor web. Para indicar el tipo de respuesta, se utilizan los datos tipo MIME. Algunos ejemplos de mime son:
+  	- application/json
+  	- application/msword
+- Por defecto, el contextPath es igual al nombre del proyecto. "/ContextPath/PathServlet" seria el formato de url.
+- vnd
